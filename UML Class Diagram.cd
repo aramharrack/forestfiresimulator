@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="forestfiresimulator.FireSimulation">
+    <Position X="5.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>FireSimulation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="forestfiresimulator.ForestFireSimulation">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAIAAAAABIQEAAAAAEAAAAAAAAAAgAQAAAAAABgA=</HashCode>
+      <FileName>ForestFireSimulation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="forestfiresimulator.ForestGenerator">
+    <Position X="7.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAYAAAAAAAAkAAAAgAACAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>ForestGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="forestfiresimulator.MenuOptions">
+    <Position X="7.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>MenuOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
