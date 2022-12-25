@@ -6,6 +6,22 @@ namespace forestfiresimulator
     class ForestFireSimulation
     {
         Random rand = new Random();
+        private int burnCount;
+
+        public ForestFireSimulation()
+        {
+            burnCount = 0;
+        }
+
+        public int GetBurnCount()
+        {
+            return burnCount;
+        }
+
+        public void SetBurnCount(int count)
+        {
+            burnCount = count;
+        }
 
         private void PrintForest(int[,] forest, int row, int column)
         {
@@ -142,7 +158,9 @@ namespace forestfiresimulator
         private void PrintPauseClear(int[,] forest, int row, int column)
         {
             DisplayGrid(forest, row, column);
-            Thread.Sleep(2500);
+            SetBurnCount(GetBurnCount() + 1);
+            Console.Write("Iteration: {0}", GetBurnCount());
+            Thread.Sleep(2000);
             Console.Clear();
         }
 
@@ -182,6 +200,7 @@ namespace forestfiresimulator
                     forest[i, j] = 1;
                 }
             }
+            SetBurnCount(0);
             return forest;
         }//close method
 

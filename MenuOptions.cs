@@ -16,6 +16,7 @@ namespace forestfiresimulator
             Console.WriteLine("4. Reburn the forest to completion.");
             Console.WriteLine("5. Set central tree and burn till completion (Options 2-4).");
             Console.WriteLine("6. Reset the forest.");
+            Console.WriteLine("7. Check iterations the forest burned.");
             Console.Write("\nSelect a listed option or enter 0 to exit: ");
         }
 

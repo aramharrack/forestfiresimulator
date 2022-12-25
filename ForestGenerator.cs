@@ -35,7 +35,7 @@ namespace forestfiresimulator
 
                 while (lineInFile != null)
                 {
-                    lineArray = lineInFile.Split(' ');
+                    lineArray = lineInFile.Split(',');
                     MapForest(forest, lineArray, gridRow);
                     lineInFile = readFileIn.ReadLine(); //read next line from the file
                     ++gridRow;

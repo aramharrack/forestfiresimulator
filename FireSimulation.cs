@@ -57,6 +57,11 @@ namespace forestfiresimulator
                             simulation.ResetForest(forest, forestGen.GetRow(), forestGen.GetColumn());//stuff to reset
                             menu.ReturnToMain();
                             break;
+                        case 7:
+                            Console.WriteLine("\nChecking iterations the forest burned.\n");
+                            Console.WriteLine("The forest has burned {0} times.", simulation.GetBurnCount());
+                            menu.ReturnToMain();
+                            break;
                         default:
                             Console.WriteLine("\nInvalid selection!\n");
                             menu.ReturnToMain();
